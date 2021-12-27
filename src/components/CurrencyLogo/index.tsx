@@ -31,7 +31,7 @@ export const getTokenLogoURL = (
   const networkName = chainIdToNetworkName(chainId)
   const networksWithUrls = [SupportedChainId.ARBITRUM_ONE, SupportedChainId.MAINNET, SupportedChainId.OPTIMISM]
   if (networksWithUrls.includes(chainId)) {
-    return `https://raw.githubusercontent.com/Uniswap/assets/master/blockchains/${networkName}/assets/${address}/logo.png`
+    return `https://raw.githubusercontent.com/Moonswap/assets/master/blockchains/${networkName}/assets/${address}/logo.png`
   }
 }
 

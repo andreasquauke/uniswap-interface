@@ -394,9 +394,9 @@ export default function WalletModal({
               <AutoRow style={{ flexWrap: 'nowrap' }}>
                 <ThemedText.Black fontSize={14}>
                   <Trans>
-                    By connecting a wallet, you agree to Uniswap Labs’{' '}
+                    By connecting a wallet, you agree to Moonswap Labs’{' '}
                     <ExternalLink href="https://uniswap.org/terms-of-service/">Terms of Service</ExternalLink> and
-                    acknowledge that you have read and understand the Uniswap{' '}
+                    acknowledge that you have read and understand the Moonswap{' '}
                     <ExternalLink href="https://uniswap.org/disclaimer/">Protocol Disclaimer</ExternalLink>.
                   </Trans>
                 </ThemedText.Black>

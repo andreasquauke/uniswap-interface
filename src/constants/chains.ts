@@ -7,7 +7,7 @@ import ms from 'ms.macro'
 import { ARBITRUM_LIST, OPTIMISM_LIST } from './lists'
 
 /**
- * List of all the networks supported by the Uniswap Interface
+ * List of all the networks supported by the Moonswap Interface
  */
 export enum SupportedChainId {
   MAINNET = 1,

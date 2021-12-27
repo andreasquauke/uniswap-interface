@@ -112,7 +112,7 @@ export default function CTACards() {
             <Trans>Top pools</Trans> ↗
           </HeaderText>
           <ThemedText.Body fontWeight={400} style={{ alignSelf: 'flex-start' }}>
-            <Trans>Explore Uniswap Analytics.</Trans>
+            <Trans>Explore Moonswap Analytics.</Trans>
           </ThemedText.Body>
         </ResponsiveColumn>
       </CTA2>

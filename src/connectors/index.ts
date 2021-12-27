@@ -51,7 +51,7 @@ export const portis = new PortisConnector({
 // mainnet only
 export const walletlink = new WalletLinkConnector({
   url: INFURA_NETWORK_URLS[SupportedChainId.MAINNET],
-  appName: 'Uniswap',
+  appName: 'Moonswap',
   appLogoUrl: UNISWAP_LOGO_URL,
   supportedChainIds: [SupportedChainId.MAINNET],
 })

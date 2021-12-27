@@ -38,21 +38,21 @@ const PERMITTABLE_TOKENS: {
   1: {
     [USDC.address]: { type: PermitType.AMOUNT, name: 'USD Coin', version: '2' },
     [DAI.address]: { type: PermitType.ALLOWED, name: 'Dai Stablecoin', version: '1' },
-    [UNI[1].address]: { type: PermitType.AMOUNT, name: 'Uniswap' },
+    [UNI[1].address]: { type: PermitType.AMOUNT, name: 'Moonswap' },
   },
   4: {
     '0xc7AD46e0b8a400Bb3C915120d284AafbA8fc4735': { type: PermitType.ALLOWED, name: 'Dai Stablecoin', version: '1' },
-    [UNI[4].address]: { type: PermitType.AMOUNT, name: 'Uniswap' },
+    [UNI[4].address]: { type: PermitType.AMOUNT, name: 'Moonswap' },
   },
   3: {
-    [UNI[3].address]: { type: PermitType.AMOUNT, name: 'Uniswap' },
+    [UNI[3].address]: { type: PermitType.AMOUNT, name: 'Moonswap' },
     '0x07865c6E87B9F70255377e024ace6630C1Eaa37F': { type: PermitType.AMOUNT, name: 'USD Coin', version: '2' },
   },
   5: {
-    [UNI[5].address]: { type: PermitType.AMOUNT, name: 'Uniswap' },
+    [UNI[5].address]: { type: PermitType.AMOUNT, name: 'Moonswap' },
   },
   42: {
-    [UNI[42].address]: { type: PermitType.AMOUNT, name: 'Uniswap' },
+    [UNI[42].address]: { type: PermitType.AMOUNT, name: 'Moonswap' },
   },
 }
 
@@ -261,7 +261,7 @@ function useERC20Permit(
 
 const REMOVE_V2_LIQUIDITY_PERMIT_INFO: PermitInfo = {
   version: '1',
-  name: 'Uniswap V2',
+  name: 'Moonswap V2',
   type: PermitType.AMOUNT,
 }
 
